@@ -1,39 +1,3 @@
-<!-- Print "hello world using HTML" -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namaste React</title>
-</head>
-<body>
-    <div id="root">
-        <h1>HELLO WORLD!</h1>
-    </div>
-    
-</body>
-</html>
------------------------------------------------------------------------------
-<!-- Print "hello world using JAVASCRIPT" -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namaste React</title>
-</head>
-<body>
-    <div id="root"></div>
-    <script>
-        const tag1 = document.createElement("h1")
-        tag1.innerHTML = "Hello world"
-        const root  = document.getElementById("root")
-        root.appendChild(tag1);
-    </script>
-    
-</body>
-</html>
-------------------------------------------------------------------------------
 <!-- Print "hello world using REACT" -->
 <!DOCTYPE html>
 <html lang="en">
@@ -44,9 +8,7 @@
 </head>
 <body>
     <div id="root"></div>
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="./app.js"></script>
+    <script type="module"  src="./app.js"></script>
  
 </body>
 </html>
